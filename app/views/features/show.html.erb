@@ -1,0 +1,19 @@
+<h1>Feature Details</h1>
+
+<p>
+  <strong>Name:</strong>
+  <%= @feature.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @feature.description %>
+</p>
+
+<p>
+  <strong>Icon URL:</strong>
+  <%= @feature.icon_url %>
+</p>
+
+<%= link_to 'Edit', edit_feature_path(@feature) %> |
+<%= link_to 'Back', features_path %>

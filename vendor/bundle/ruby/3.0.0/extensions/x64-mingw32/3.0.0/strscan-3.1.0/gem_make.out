@@ -1,0 +1,18 @@
+current directory: C:/Projects/ruby_training/test_app/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
+C:/Ruby30-x64/bin/ruby.exe -I C:/Ruby30-x64/lib/ruby/3.0.0 -r ./siteconf20240801-8660-kizoe6.rb extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+checking for rb_reg_onig_match() in ruby.h... no
+creating Makefile
+
+current directory: C:/Projects/ruby_training/test_app/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= clean
+
+current directory: C:/Projects/ruby_training/test_app/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\=
+generating strscan-x64-mingw32.def
+compiling strscan.c
+linking shared-object strscan.so
+
+current directory: C:/Projects/ruby_training/test_app/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 strscan.so ./.gem.20240801-8660-5vxbgc

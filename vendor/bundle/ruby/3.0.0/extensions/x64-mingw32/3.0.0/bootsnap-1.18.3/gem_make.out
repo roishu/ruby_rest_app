@@ -1,0 +1,19 @@
+current directory: C:/Projects/ruby_training/test_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.18.3/ext/bootsnap
+C:/Ruby30-x64/bin/ruby.exe -I C:/Ruby30-x64/lib/ruby/3.0.0 -r ./siteconf20240801-8660-xbzucn.rb extconf.rb
+checking for fdatasync() in unistd.h... no
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: C:/Projects/ruby_training/test_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: C:/Projects/ruby_training/test_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\=
+generating bootsnap-x64-mingw32.def
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: C:/Projects/ruby_training/test_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20240801-8660-s87jmu/bootsnap

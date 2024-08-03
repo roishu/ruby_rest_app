@@ -1,0 +1,29 @@
+<h1>Features</h1>
+
+<%= link_to 'New Feature', new_feature_path %>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Icon URL</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @features.each do |feature| %>
+      <tr>
+        <td><%= feature.name %></td>
+        <td><%= feature.description %></td>
+        <td><%= feature.icon_url %></td>
+        <td>
+          <%= link_to 'Show', feature_path(feature) %>
+          <%= link_to 'Edit', edit_feature_path(feature) %>
+          <%= link_to 'Destroy', feature_path(feature), method: :delete, data: { confirm: 'Are you sure?' } %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
